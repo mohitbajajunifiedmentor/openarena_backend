@@ -1,0 +1,23 @@
+{
+  "name": "openarena-backend",
+  "version": "1.0.0",
+  "description": "OpenArena – Sports & Events Ground Management Platform API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node src/scripts/seed.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
